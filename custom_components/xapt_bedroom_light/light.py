@@ -34,9 +34,9 @@ class XaptBedroomLight(NewLight):
             "Xapt Bedroom Light", domain=DOMAIN, debug=False, debug_rl=False
         )
 
-        self.entities["light.xapt_bedroom_group"] = None
-        self.switch = "Xapt Bedroom Switch"
-        #self.motion_sensors.append("Dining Room Motion Sensor")
+        self.entities["light.bedroom_group"] = None
+        # self.switch = "Xapt Bedroom Switch"
+        # self.motion_sensors.append("Dining Room Motion Sensor")
 
         self.has_brightness_threshold = True
         self.brightness_threshold = 191
