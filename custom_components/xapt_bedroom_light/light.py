@@ -31,7 +31,7 @@ class XaptBedroomLight(NewLight):
     def __init__(self) -> None:
         """Initialize Xapt Bedroom Light."""
         super(XaptBedroomLight, self).__init__(
-            "Xapt Bedroom Light", domain=DOMAIN, debug=False, debug_rl=False
+            "Bedroom Light", domain=DOMAIN, debug=False, debug_rl=False
         )
 
         self.entities["light.bedroom_group"] = None
